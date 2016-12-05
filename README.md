@@ -8,15 +8,10 @@ The desire to create this useful gadget comes from a lot of wasted money. I've p
 To get the ball rolling...
 
 Code:
+def you_gonna_win():
+"""Returns repeated lottery numbers in a set of 6
 
-  lines=int(input("how many lines would you like?"))
-    for i in range (0,lines):
-         import random
-    lotterynumbers = []
-     x = 0
-
-     while x < 6:
-         lotterynumbers.append(random.randint(1, 49))
-         x += 1
-     lotterynumbers.sort()
-     print (lotterynumbers)
+>>>you_gonna_win(8, 10, 26, 27, 33)
+"""
+raw
+    return max(set(lst), key=lst.count)
