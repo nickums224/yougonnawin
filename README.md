@@ -7,12 +7,3 @@ The desire to create this useful gadget comes from a lot of wasted money. I've p
 
 To get the ball rolling...
 
-Code:
-def you_gonna_win():
-"""Returns repeated lottery numbers in a set of 6
-
->>>you_gonna_win(8, 10, 26, 27, 33)
-"""
-raw
-    return max(set(lst), key=lst.count)
-
