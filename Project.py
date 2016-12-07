@@ -13,7 +13,7 @@ How many numbers for this game? 6
 from random import randint as numb
     return [numb(1,69) for number in range(amount)]
 
-def tell_me_what(prompt="how many lines would you like? "):
+def tell_me_what(prompt="how many times are you going to play?"):
     return int(input(prompt))
 
 
