@@ -2,7 +2,7 @@
   import random
 
 def you_gonna_win(amount=6):
-"""Returns random lottery numbers in list of 6
+"""Returns random lottery numbers in list of 6 random numbers ranging from 1-69
 
 >>> you_gonna_win(1)
 [55, 3, 54, 23, 41, 25]
